@@ -5,11 +5,11 @@ const {createApp} = Vue;
 createApp({
     data(){
         return{
-            message: 'Hello World',
-            
+            message: 'Hello Star Wars',
+            image: "./img/la-vendetta-dei-sith.jpg",  
+           
         }
     },
-
-
+    
 }).mount('#app');
 
